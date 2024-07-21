@@ -5,9 +5,9 @@ public class L21_If {
 
         String str = "Buffy";
         int age = 18;
-        if (str.startsWith("B") && age > 18) {
+        if (str.startsWith("B") && age > 18)
             System.out.println("Inside");
-        }
+
 
     }
 }
