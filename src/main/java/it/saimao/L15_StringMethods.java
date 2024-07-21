@@ -26,6 +26,14 @@ public class L15_StringMethods {
         System.out.println(first.endsWith("a"));
         System.out.println(first.contains("a"));
 
+        // Concatenation
+        String one = "One";
+        String two = "Two";
+        String three = one.concat(two);
+        String four = one.concat(two.concat(three));
+        String five = one + two + three + four;
+        String six = one + 2 + 3 + 4 + 5;
+        System.out.println(six);
 
     }
 }
