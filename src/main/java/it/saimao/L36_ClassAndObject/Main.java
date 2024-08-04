@@ -11,11 +11,11 @@ public class Main {
 
         MyClass myClass = new MyClass();
         myClass.age = 18;
-        myClass.name = "Sai Sai";
         System.out.println("Age : " + myClass.age);
         System.out.println("Active : " + myClass.active);
         System.out.println("Name : " + myClass.name);
 
-
+        MyClass myClass2 = new MyClass();
+        System.out.println(myClass2.age);
     }
 }
